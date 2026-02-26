@@ -1,0 +1,25 @@
+{
+    "name": "spykapps/theme-edinburgh",
+    "description": "A royal Filament theme inspired by Edinburgh's Old Town — stone-gray surfaces, brass accents, heavy borders, and ornate details.",
+    "keywords": ["filament", "filament-plugin", "theme", "laravel", "spykapps", "edinburgh"],
+    "homepage": "https://spykapps.com/theme-edinburgh",
+    "license": "MIT",
+    "authors": [{"name": "Spykapps", "email": "hello@spykapps.com"}],
+    "require": {
+        "php": "^8.1",
+        "filament/filament": "^4.0|^5.0",
+        "spatie/laravel-package-tools": "^1.16"
+    },
+    "autoload": {
+        "psr-4": {
+            "SpyApp\\ThemeEdinburgh\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": ["SpyApp\\ThemeEdinburgh\\ThemeEdinburghServiceProvider"]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
