@@ -869,3 +869,55 @@ li[aria-current="page"] .fi-breadcrumbs-item-label {
 .dark .fi-dropdown-panel::-webkit-scrollbar-thumb {
     background: rgb(255 255 255 / 0.06);
 }
+
+
+.fi-fo-table-repeater > table {
+    border: 1px solid var(--theme-border-mid);
+    background: var(--theme-surface-card);
+    overflow: hidden;
+}
+
+.fi-fo-table-repeater > table > thead > tr > th {
+    padding: 0.625rem 0.5rem;
+    font-size: 0.625rem;
+    line-height: 1rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    color: var(--theme-slate-muted);
+    background: var(--theme-surface-dim);
+    border-bottom: 2px solid var(--theme-border-mid);
+}
+
+.fi-fo-table-repeater > table > tbody > tr > td {
+    background: var(--theme-surface-card);
+    border-bottom: 1px solid var(--theme-border);
+    padding: 0.5rem;
+}
+
+.fi-fo-table-repeater > table > tbody > tr:hover > td {
+    background: var(--theme-brass-dim);
+}
+
+.fi-fo-table-repeater-empty-header-cell {
+    background: var(--theme-surface-dim) !important;
+}
+
+.fi-fo-table-repeater-add {
+    background: var(--theme-surface-dim);
+    border-top: 1px solid var(--theme-border);
+    padding: 0.5rem;
+}
+
+.dark .fi-fo-table-repeater > table > thead > tr > th {
+    color: var(--theme-slate-muted);
+}
+
+.dark .fi-fo-table-repeater > table > tbody > tr > td {
+    background: var(--theme-surface-card);
+    border-color: var(--theme-border);
+}
+
+.dark .fi-fo-table-repeater > table > tbody > tr:hover > td {
+    background: var(--theme-brass-dim);
+}
