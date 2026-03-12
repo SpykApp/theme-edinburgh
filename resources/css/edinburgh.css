@@ -450,7 +450,6 @@
     border: 1px solid var(--theme-border-mid);
     border-top: 2px solid var(--theme-border-heavy);
     box-shadow: var(--theme-shadow-soft);
-    overflow: hidden;
     background: var(--theme-surface-card);
 }
 
